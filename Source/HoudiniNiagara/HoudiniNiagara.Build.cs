@@ -29,9 +29,11 @@ public class HoudiniNiagara : ModuleRules
 	{
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PrivateIncludePaths.AddRange(new string[] {
+        PrivateIncludePaths.AddRange(new string[] 
+		{
 				"HoudiniNiagara/Private",
 		});
+
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -45,7 +47,6 @@ public class HoudiniNiagara : ModuleRules
 				"RenderCore"
 			}
 		);
-			
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
@@ -62,7 +63,5 @@ public class HoudiniNiagara : ModuleRules
 				"Json"
 			}
 		);
-			
-		
 	}
 }

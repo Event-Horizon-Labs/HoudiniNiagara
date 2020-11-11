@@ -29,14 +29,13 @@ public class HoudiniNiagaraEditor : ModuleRules
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
-		
 		PrivateIncludePaths.AddRange(
 			new string[] 
             {
 				"HoudiniNiagaraEditor/Private",
             }
         );
-			
+		
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
@@ -54,7 +53,7 @@ public class HoudiniNiagaraEditor : ModuleRules
 				"EditorStyle",
 			}
         );
-			
+		
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
