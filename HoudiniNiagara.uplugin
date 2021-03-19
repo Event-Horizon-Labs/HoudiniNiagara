@@ -21,12 +21,32 @@
 		{
 			"Name": "HoudiniNiagara",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"TVOS", 
+				"Android", 
+				"HoloLens", 
+				"IOS", 
+				"Linux", 
+				"LinuxAArch64", 
+				"Lumin",
+				"Win32",
+			]
 		},
 		{
 			"Name": "HoudiniNiagaraEditor",
 			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"TVOS", 
+				"Android", 
+				"HoloLens", 
+				"IOS", 
+				"Linux", 
+				"LinuxAArch64", 
+				"Lumin",
+				"Win32",
+			]
 		}
 	],
 
